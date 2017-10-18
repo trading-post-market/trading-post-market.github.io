@@ -1,8 +1,9 @@
-<nav class="nav">
-	<ul>
-		<li><a href="/">{{ site.title }}</a></li>
-		{% for page in site.pages %}
-		<li><a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a></li>
-		{% endfor %}
-	</ul>
-</nav>
+<header class="fl-ns w-25-ns relative tc">
+	<div class="fixed-ns w-25-ns ph4">
+	<a href="/"><img class="db center w5" src="/images/trading-post-market-logo.svg" alt="Trading Post Market"></a>
+	<nav class="pa3 dib">
+		<a class="link bg-wintergreen white br3 db tc pa2 ph4 mv2 b" href="/vendors">Vendors</a>
+		<a class="link bg-wintergreen white br3 db tc pa2 ph4 mv2 b" href="/about">About</a>
+		<a class="link bg-wintergreen white br3 db tc pa2 ph4 mv2 b" href="/contact">Contact</a>
+	</nav>
+</header>
