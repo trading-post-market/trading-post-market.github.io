@@ -1,8 +1,8 @@
 ---
-layout: default
-title: About
+layout: page
+title: Contact Us
 ---
 
-# Contact Us
+Questions or comments about the market? Email us [here](mailto:tradingpostmrkt@gmail.com)!
 
-Email, link to vendor form
+Interested in being a vendor? Please fill out [this form](/vendor-signup).

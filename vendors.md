@@ -1,8 +1,6 @@
 ---
-layout: default
+layout: page
 title: Vendors
 ---
 
-# Vendors
-
-The market will feature creative and dedicated local food producers.
+Coming soon! The market will feature a variety of creative and dedicated local food producers. Check back soon for details!

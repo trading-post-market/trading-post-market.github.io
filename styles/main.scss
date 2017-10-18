@@ -9,3 +9,8 @@
 	width: 100%;
 	height: 250px;
 }
+@media(min-width: 30em) {
+	.min-vh-90-ns {
+		min-height: 90vh;
+	}
+}
