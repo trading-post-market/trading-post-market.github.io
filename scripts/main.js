@@ -5,10 +5,10 @@ function init() {
   // For more options see: https://developers.google.com/maps/documentation/javascript/reference#MapOptions
   var mapOptions = {
     // How zoomed in you want the map to start at (always required)
-    zoom: 11,
+    zoom: 14,
 
     // The latitude and longitude to center the map (always required)
-    center: new google.maps.LatLng(44.5192, -88.0198),
+    center: new google.maps.LatLng(44.5197958,-88.0212532),
 
     // How you would like to style the map.
     // This is where you would paste any style found on Snazzy Maps.
@@ -24,8 +24,8 @@ function init() {
 
   // Let's also add a marker while we're at it
   var marker = new google.maps.Marker({
-    position: new google.maps.LatLng(44.5192, -88.0198),
+    position: new google.maps.LatLng(44.5197958,-88.0212532),
     map: map,
-    title: 'Snazzy!'
+    title: 'Trading Post Market'
   });
 }
