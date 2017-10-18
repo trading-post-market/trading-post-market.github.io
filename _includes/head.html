@@ -2,7 +2,13 @@
   <meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width">
 	<title>{% if page.title %}{{ page.title}} | {% endif %}{{ site.title }} | Downtown Green Bay</title>
-  <meta name="description" content="A cozy winter farmers' market in Green Bay, WI. Experience and support local food culture, education, and creativity."
+  <meta name="description" content="A cozy winter farmers' market in Green Bay, WI. Experience and support local food culture, education, and creativity.">
+  <meta property="og:title" content="{{ page.title }}">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Trading Post Market">
+  <meta property="og:url" content="https://{{ site.url }}{{ page.url }}">
+  <meta property="og:description" content"A cozy winter farmers' market in Green Bay, WI. Experience and support local food culture, education, and creativity.">
+	<meta property="og:image" content="http://{{ site.url }}/img/cover-photo.jpg">
 
   <link rel="stylesheet" href="https://use.typekit.net/bwm7zkx.css">
   <link rel="stylesheet" href="https://unpkg.com/tachyons@4.8.1/css/tachyons.min.css"/>
