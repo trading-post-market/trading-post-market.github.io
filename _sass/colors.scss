@@ -1,6 +1,7 @@
 $wintergreen: #5F755C;
-$pine: #FBEAD4;
+$pine: #FDF1E2;
 $cedar: #967F66;
+$warmgrey: #CAC2B9;
 
 .wintergreen { color: $wintergreen; }
 .bg-wintergreen { background-color: $wintergreen; }
@@ -8,3 +9,9 @@ $cedar: #967F66;
 .pine { color: $pine; }
 .bg-pine { background-color: $pine; }
 .b--pine { border-color: $pine; }
+.cedar { color: $cedar; }
+.bg-cedar { background-color: $cedar; }
+.b--cedar { border-color: $cedar; }
+.warmgrey { color: $warmgrey; }
+.bg-warmgrey { background-color: $warmgrey; }
+.b--warmgrey { border-color: $warmgrey; }
