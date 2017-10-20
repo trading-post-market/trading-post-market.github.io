@@ -1,17 +1,21 @@
 $wintergreen: #5F755C;
-$pine: #FDF1E2;
+$chalk: #F5F5F5;
 $cedar: #967F66;
-$warmgrey: #B8B3AD;
+$gravel: #ACA8A4;
+$charcoal: #444444;
 
 .wintergreen { color: $wintergreen; }
 .bg-wintergreen { background-color: $wintergreen; }
 .b--wintergreen { border-color: $wintergreen; }
-.pine { color: $pine; }
-.bg-pine { background-color: $pine; }
-.b--pine { border-color: $pine; }
+.chalk { color: $chalk; }
+.bg-chalk { background-color: $chalk; }
+.b--chalk { border-color: $chalk; }
 .cedar { color: $cedar; }
 .bg-cedar { background-color: $cedar; }
 .b--cedar { border-color: $cedar; }
-.warmgrey { color: $warmgrey; }
-.bg-warmgrey { background-color: $warmgrey; }
-.b--warmgrey { border-color: $warmgrey; }
+.gravel { color: $gravel; }
+.bg-gravel { background-color: $gravel; }
+.b--gravel { border-color: $gravel; }
+.charcoal { color: $charcoal; }
+.bg-charcoal { background-color: $charcoal; }
+.b--charcoal { border-color: $charcoal; }
