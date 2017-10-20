@@ -1,1 +1,21 @@
-<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 93.02 103.03"><defs><style>.cls-1{font-size:100px;font-family:FontAwesome, FontAwesome;}.cls-1,.cls-2,.cls-5{fill:#967f66;}.cls-2,.cls-5{font-size:37px;font-family:Iskra-Bold, Iskra;font-weight:700;}.cls-2{letter-spacing:-0.06em;}.cls-3{letter-spacing:-0.05em;}.cls-4{letter-spacing:-0.05em;}.cls-5{letter-spacing:-0.1em;}</style></defs><title>dec14</title><text class="cls-1" transform="translate(0 88)"></text><text class="cls-2" transform="translate(17.32 65.82)">D<tspan class="cls-3" x="23.98" y="0">e</tspan><tspan class="cls-4" x="41.7" y="0">c</tspan></text><text class="cls-5" transform="translate(29.54 91.84)">14</text></svg>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 93 103" style="enable-background:new 0 0 93 103;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#444444;}
+	.st1{font-family:'FontAwesome';}
+	.st2{font-size:100px;}
+	.st3{font-family:'Iskra-Bold';}
+	.st4{font-size:37px;}
+	.st5{letter-spacing:-2;}
+	.st6{letter-spacing:-1;}
+	.st7{letter-spacing:-3;}
+</style>
+<title>dec14</title>
+<text transform="matrix(1 0 0 1 0 88)" class="st0 st1 st2"></text>
+<text transform="matrix(1 0 0 1 17.32 65.82)" class="st0 st3 st4 st5">D</text>
+<text transform="matrix(1 0 0 1 41.3 65.82)" class="st0 st3 st4 st6">e</text>
+<text transform="matrix(1 0 0 1 59.02 65.82)" class="st0 st3 st4 st6">c</text>
+<text transform="matrix(1 0 0 1 29.54 91.84)" class="st0 st3 st4 st7">14</text>
+</svg>
