@@ -10,12 +10,11 @@
 	.st4{font-size:37px;}
 	.st5{letter-spacing:-1;}
 	.st6{letter-spacing:-2;}
-	.st7{letter-spacing:-3;}
 </style>
 <title>nov16</title>
 <text transform="matrix(1 0 0 1 0 88)" class="st0 st1 st2"></text>
-<text transform="matrix(1 0 0 1 15.24 65.82)" class="st0 st3 st4 st5">N</text>
-<text transform="matrix(1 0 0 1 39.51 65.82)" class="st0 st3 st4 st6">o</text>
-<text transform="matrix(1 0 0 1 57.75 65.82)" class="st0 st3 st4 st5">v</text>
-<text transform="matrix(1 0 0 1 27.54 91.84)" class="st0 st3 st4 st7">16</text>
+<text transform="matrix(1 0 0 1 15.24 65.82)" class="st0 st3 st4">N</text>
+<text transform="matrix(1 0 0 1 39.51 65.82)" class="st0 st3 st4 st5">o</text>
+<text transform="matrix(1 0 0 1 57.75 65.82)" class="st0 st3 st4">v</text>
+<text transform="matrix(1 0 0 1 27.54 91.84)" class="st0 st3 st4 st6">16</text>
 </svg>

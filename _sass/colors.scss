@@ -1,8 +1,9 @@
 $wintergreen: #5F755C;
-$chalk: #F5F5F5;
-$cedar: #967F66;
+$chalk: #FCF8F3;
+$cedar: #896E59;
 $gravel: #ACA8A4;
 $charcoal: #444444;
+$burgundy: #824D63;
 
 .wintergreen { color: $wintergreen; }
 .bg-wintergreen { background-color: $wintergreen; }
@@ -19,3 +20,6 @@ $charcoal: #444444;
 .charcoal { color: $charcoal; }
 .bg-charcoal { background-color: $charcoal; }
 .b--charcoal { border-color: $charcoal; }
+.burgundy { color: $burgundy; }
+.bg-burgundy { background-color: $burgundy; }
+.b--burgundy { border-color: $burgundy; }
