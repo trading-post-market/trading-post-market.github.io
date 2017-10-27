@@ -11,6 +11,7 @@ html {
 }
 body {
   font-size: 1em;
+	font-weight: 300;
   line-height: 1.35;
 }
 p {
@@ -19,6 +20,7 @@ p {
 }
 a {
   color: $wintergreen;
+	outline: none !important;
 }
 h1,
 h2,
@@ -37,7 +39,8 @@ h1 {
 }
 h2 {
   font-size: 1.5rem;
-  color: $cedar;
+  color: $burgundy;
+	line-height: 0.9;
 }
 ul {
   padding-left: 20px;
