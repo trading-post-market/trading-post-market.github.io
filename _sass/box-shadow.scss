@@ -1,0 +1,15 @@
+.shadow-burgundy {
+  box-shadow: -6px 6px 0 0 $burgundy;
+}
+.shadow-gravel {
+  box-shadow: -4px 4px 0 0 $gravel;
+}
+
+@media(min-width: 30em) {
+  .shadow-burgundy-ns {
+    box-shadow: -6px 6px 0 0 $burgundy;
+  }
+  .shadow-gravel-ns {
+    box-shadow: -4px 4px 0 0 $gravel;
+  }
+}
