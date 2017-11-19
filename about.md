@@ -38,10 +38,7 @@ This market is uniquely focused on showcasing examples of unique, creative local
 
 ## Market Organizers
 
-Sarah McCarty  
-Ben Blohoweak  
-Kevin McGillivray  
-Alex Baranowski  
-Meredith Hansen  
-Alicia Slusarek  
-Tyler Brown
+{% for member in site.data.organizers %}
+<h3 class="mb0">{{ member.name }}</h3>
+<p class="f5">{{ member.business }}</p>
+{% endfor %}

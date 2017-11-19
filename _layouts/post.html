@@ -2,8 +2,32 @@
 layout: default
 ---
 
-	<article>
-  	<h1>{{ page.title }}</h1>
-  	<p>{{ page.date | date: "%b %-d, %Y" }}</p>
- 	 	{{ content }}
-  </article>
+<article class="mw7 center f4 pt4 charcoal">
+
+  <h1 class="tc charcoal f2">{{ page.title }}</h1>
+	<p class="tc i">{{ page.author }} | {{ page.date | date: "%-d %B, %Y" }}</p>
+
+	<hr class="w-50 b--burgundy bw2">
+
+  <div class="mw6 center">
+    {{ content }}
+  </div>
+</article>
+
+{% include newsletter-signup.html %}
+
+{% include social-buttons.html %}
+
+<div class="mw6 center pa4 br3 mt5 bg-chalk">
+	{% for author in site.data.organizers %}
+	{% if author.name == page.author %}
+	<div class="tc">
+		<img class="mw4 br-100 mb0" src="/images/{{ author.image }}" alt="{{ author.name }}">
+		<h2 class="f4 mb0 wintergreen">{{ author.name }}</h2>
+		<h3 class="mt1 f5 normal">{{ author.role }}</h3>
+	</div>
+	<p>{{ author.bio }}</p>
+
+	{% endif %}
+	{% endfor %}
+</div>

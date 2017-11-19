@@ -1,0 +1,41 @@
+- name: Sarah McCarty
+  role: Market Organizer
+  business: Cold Climate Farms
+  bio: Bio here.
+  image: sarah-mccarty.jpg
+
+- name: Ben Blohoweak
+  role: Market Organizer
+  business: Cold Climate Farms
+  bio: Bio here.
+  image: ben-blowhoweak.jpg
+
+- name: Kevin McGillivray
+  role: Market Organizer
+  business: Sandcastle
+  bio: Kevin is a teacher, web developer, and amateur bread baking enthusiast. He is co-founder of Sandcastle, a tiny web design studio. As a market organizer, he helps with the market website, photography, design, and lots of other miscellaneous tasks.
+  image: kevin-mcgillivray.jpg
+
+- name: Alex Baranowski
+  role: Market Organizer
+  business: Sandcastle
+  bio: Bio here.
+  image: alex-baranowski.jpg
+
+- name: Meredith Hansen
+  role: Market Organizer
+  business: Brown County ADRC
+  bio: Bio here.
+  image: meredith-hansen.jpg
+
+- name: Alicia Slusarek
+  role: Market Organizer
+  business: Alicia Slusarek Nutrition Services
+  bio: Bio here.
+  image: alicia-slusarek.jpg
+
+- name: Tyler Brown
+  role: Market Organizer
+  business: Alicia Slusarek Nutrition Services
+  bio: Bio here.
+  image: tyler-brown.jpg

@@ -47,23 +47,8 @@ layout: default
 	<div id="map" class="br3"></div>
 </div>
 
-<div class="mw7-l mw6-ns center tc br3 mb4 bg-chalk">
-	<div class="pa3 br3">
-		<p class="f4 mw6 mw7-l charcoal">Sign up for our newsletter and follow us on social media for updates!</p>
-		<form class="tc mb2" action="https://tinyletter.com/tradingpostmarket" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/tradingpostmarket', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true">
-			<label class="sr-only" for="tlemail">Enter your email address</label>
-			<input class="iskra tc w-100 w-50-ns pa3 br3 ba bw1 b--gravel" placeholder="Enter your email" type="text" name="email" id="tlemail" />
-			<input type="hidden" value="1" name="embed"/>
-			<input class="iskra bn bg-burgundy white br3 dib tc ph4 pv3 mt3 mt0-l mh4 b pointer shadow-gravel" type="submit" value="Subscribe" />
-		</form>
-	</div>
-</div>
+{% include newsletter-signup.html %}
 
-<div class="center mw10 mt3 w-70">
-		<div class="center tc">
-		<a class="dib pv2 ph3 mv2 br3 no-underline mh3 bg-burgundy white b shadow-gravel grow" target="_blank" href="https://www.facebook.com/tradingpostmarket"><img class="w2 v-mid mr3" src="/images/facebook.svg">Facebook</a>
-		<a class="dib pv2 ph3 mv2 br3 no-underline mh3 bg-burgundy white b shadow-gravel grow" target="_blank" href="https://www.instagram.com/tradingpostmarket"><img class="w2 v-mid mr3" src="/images/instagram.svg">Instagram</a>
-		</div>
-</div>
+{% include social-buttons.html %}
 
 <h2 class="tc f4 mb3 mt5 normal charcoal">Interested in being a vendor? Please fill out <a class="wintergreen dim" href="/vendor-signup">this form</a>.</h2>
