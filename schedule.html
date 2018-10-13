@@ -1,0 +1,28 @@
+---
+layout: page-wide
+title: Schedule & Location
+---
+
+<section class="flex-ns">
+  <div class="w-40-ns pr3-ns">
+    <h2 class="mt0">Titletown Tap Room</h2>
+    <p>320 N. Broadway Green Bay, WI</p>
+    <div id="map" class="br3"></div>
+    <h3 class="f3">Parking</h3>
+    <p>Parking is readily available right outside the tap room—look for the building with the tall smokestack that says "Titletown"!</p>
+  </div>
+
+  <div class="w-60-ns pl3-ns">
+    {% for event in site.data.schedule %}
+    <div class="mb3 flex">
+      <div class="tc lh-solid bg-light-gray pa3 br3 br--left">
+        <span class="burgundy b f3">{{ event.date | date: "%-d" }}</span><br>
+        {{ event.date | date: "%b" }}
+      </div>
+      <div class="w-100 lh-solid ba b--light-gray bw2 pa3 br3 br--right">
+        <span class="f5 b">{{ event.date | date: "%A, %B %-d"}}</span><br><span class="db mt1">{{ event.startTime }} - {{ event.endTime }}</span>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</section>
